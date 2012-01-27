@@ -1,6 +1,7 @@
 # Messages for Hindi (हिन्दी)
 # Exported from translatewiki.net
 # Export driver: syck-pecl
+# Author: Ansumang
 # Author: Charu
 hi: 
   activerecord: 
@@ -12,10 +13,10 @@ hi:
         latitude: अक्षांश
         longitude: देशांतर
         title: शीर्षक
-        user: उपयोगकर्ता
+        user: सदस्य
       friend: 
         friend: दोस्त
-        user: उपयोगकर्ता
+        user: सदस्य
       message: 
         body: संदेश का शारीर
         recipient: प्राप्तकर्ता
@@ -28,7 +29,7 @@ hi:
         name: नाम
         public: सार्वजनिक
         size: आकार
-        user: उपयोगकर्ता
+        user: सदस्य
         visible: दृश्य
       user: 
         active: सक्रिय
@@ -55,7 +56,7 @@ hi:
       relation: संबंध
       relation_member: संबंध का सदस्य
       relation_tag: संबंध का अंकितक
-      user: उपयोगकर्ता
+      user: सदस्य
       user_preference: उपयोगकर्ता के वरीयता
       user_token: उपयोगकर्ता के अंकितक
       way: रस्ता
@@ -181,7 +182,7 @@ hi:
       comment: टिप्पणी
       id: आईडी
       saved_at: समय जब सुरक्षित किया गया
-      user: उप्योगिकर्ता
+      user: सदस्य
   diary_entry: 
     edit: 
       body: "दैनिकी प्रविष्टि का शारीर:"

@@ -20,7 +20,7 @@ te:
         title: శీర్షిక
       trace: 
         description: వివరణ
-        latitude: అక్షాశం
+        latitude: అక్షాంశం
         longitude: రేఖాంశం
         name: పేరు
         public: బహిరంగం
@@ -226,10 +226,6 @@ te:
         waterway: 
           canal: కాలువ
           river: నది
-  javascripts: 
-    map: 
-      base: 
-        noname: పేరులేదు
   layouts: 
     copyright: కాపీహక్కులు & లైసెన్సు
     edit: మార్చు
@@ -377,7 +373,7 @@ te:
       visibility_help: దీని అర్థమేమిటి?
     trace_paging_nav: 
       next: తదుపరి »
-      previous: "« గత"
+      previous: « గత
     view: 
       description: "వివరణ:"
       download: దింపుకోలు

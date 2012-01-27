@@ -295,6 +295,7 @@ pl:
       description_user_bbox: Zestawy zmian utworzone przez użytkownika %{user} w %{bbox}
       heading: Zestawy zmian
       heading_bbox: Zestawy zmian
+      heading_friend: Zestawy zmian
       heading_user: Zestawy zmian
       heading_user_bbox: Zestawy zmian
       title: Zestawy zmian
@@ -894,6 +895,7 @@ pl:
     map: 
       base: 
         cycle_map: Mapa Rowerowa
+        transport_map: Transport publiczny
     site: 
       edit_disabled_tooltip: Powiększ, aby edytować mapę
       edit_tooltip: Edytuje mapę
@@ -1357,7 +1359,10 @@ pl:
   user: 
     account: 
       contributor terms: 
+        agreed: Zgodziłeś się na nowe warunki uczestnictwa.
+        heading: "Warunki uczestnictwa:"
         link text: co to jest?
+        not yet agreed: Nie zgodziłeś się na nowe warunki uczestnictwa.
       current email address: "Aktualny adres e-mail:"
       delete image: Usuń obecną grafikę
       email never displayed publicly: (nie jest wyświetlany publicznie)
@@ -1552,6 +1557,10 @@ pl:
       confirm_user: zatwierdź tego użytkownika
       create_block: zablokuj tego użytkownika
       created from: "Stworzony z:"
+      ct accepted: zaakceptowane %{ago} temu
+      ct declined: odrzucone
+      ct status: "Warunki uczestnictwa:"
+      ct undecided: niezdecydowane
       deactivate_user: dezaktywuj tego użytkownika
       delete_user: usuń to konto
       description: Opis
@@ -1599,6 +1608,8 @@ pl:
       title: Blokady nałożone przez użytkownika %{name}
     blocks_on: 
       empty: "%{name} nie był jeszcze zablokowany."
+      heading: Lista blokad na użytkownika %{name}
+      title: Blokady na użytkownika %{name}
     create: 
       flash: Nalożono blokadę na użytkownika %{name}.
       try_contacting: Proszę rozważ, czy nie warto skontaktować się z użytkownikiem przed nałożeniem blokady, by miał on czas na odpowiedź.
@@ -1629,6 +1640,7 @@ pl:
       non_moderator_update: Musisz być moderatorem, żeby ustalać i edytować blokady.
     new: 
       back: Zobacz wszystkie blokady
+      needs_view: Użytkownik musi się zalogować, zanim blokada zostanie wyczyszczona
       submit: Utwórz blokadę
     not_found: 
       back: Powrót do spisu
@@ -1670,6 +1682,7 @@ pl:
       time_past: Zakończona %{time} temu
       title: "%{block_on} zablokowany przez użytkownika %{block_by}"
     update: 
+      only_creator_can_edit: Tylko moderator nakładający blokadę może ją edytować.
       success: Blokada zaktualizowana.
   user_role: 
     filter: 

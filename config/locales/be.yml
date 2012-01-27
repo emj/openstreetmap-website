@@ -370,7 +370,7 @@ be:
       reply_button: Адказаць
       subject: Тэма
       title: Прачытаць паведамленне
-      to: Камууу
+      to: Каму
       unread_button: Адзначыць, як непрачытанае
   notifier: 
     diary_comment_notification: 

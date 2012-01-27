@@ -6,6 +6,7 @@
 # Author: Gunnernett
 # Author: Harald Khan
 # Author: Nghtwlkr
+# Author: Njardarlogar
 nn: 
   activerecord: 
     attributes: 
@@ -37,9 +38,13 @@ nn:
       language: Språk
       message: Melding
       node: Node
+      node_tag: Nodemerkelapp
       notifier: Varsling
       old_node: Gamal Node
+      old_node_tag: Gammal nodemerkelopp
       old_relation: Gamal Relasjon
+      old_relation_member: Gammalt relasjonsmedlem
+      old_relation_tag: Gammal relasjonsmerkelapp
       old_way: Gamal Veg
       old_way_node: Gamal Vegnode
       relation: Relasjon
@@ -125,3 +130,5 @@ nn:
   user: 
     account: 
       image: "Bilete:"
+    popup: 
+      your location: Kvar du er

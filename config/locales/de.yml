@@ -302,14 +302,17 @@ de:
     list: 
       description: Letzte Änderungen
       description_bbox: Letzte Änderungen in %{bbox}
+      description_friend: Änderungssätze deiner Freunde
       description_user: Letzte Änderungen von %{user}
       description_user_bbox: Letzte Änderungen von %{user} in %{bbox}
       heading: Änderungssätze
       heading_bbox: Änderungssätze
+      heading_friend: Änderungssätze
       heading_user: Änderungssätze
       heading_user_bbox: Änderungssätze
       title: Änderungssätze
       title_bbox: Änderungssätze in %{bbox}
+      title_friend: Änderungssätze deiner Freunde
       title_user: Änderungssätze von %{user}
       title_user_bbox: Änderungssätze von %{user} in %{bbox}
     timeout: 
@@ -1495,6 +1498,7 @@ de:
       lost password link: Passwort vergessen?
       new to osm: Neu bei OpenStreetMap?
       notice: <a href="http://wiki.openstreetmap.org/wiki/DE:ODbL/Wir_wechseln_die_Lizenz">Informiere dich über den bevorstehenden Lizenzwechsel bei OpenStreetMap</a> (<a href="http://wiki.openstreetmap.org/wiki/ODbL/We_Are_Changing_The_License">Übersetzungen</a>) (<a href="http://wiki.openstreetmap.org/wiki/Talk:ODbL/Upcoming">Diskussion</a>)
+      notice_terms: OpenStreetMap stellt am 1. April 2012 auf eine neuen Lizenz um. Es handelt sich bei der neuen Lizenz um eine ebenso freie Lizenz, wie es die aktuelle ist, allerdings sind deren rechtliche Rahmenbedingungen besser auf die Bedürfnisse unserer Kartendatenbank abgestimmt. Wir würden es sehr begrüßen, sofern wir deine Beiträge zu OpenStreetMap weiterhin speichern und zugänglich machen könnten. Dies ist allerdings nur dann möglich, sofern du zustimmst, dass wir dies gemäß den Bedingungen der neuen Lizenz auch tun dürfen. Anderenfalls müssen wir deine Beiträge aus der Datenbank löschen.<br /><br />Bitte melde dich an, um die neuen Bedingungen zu lesen und zu akzeptieren. Vielen Dank.
       openid: "%{logo} OpenID:"
       openid invalid: Deine OpenID scheint leider fehlerhaft zu sein.
       openid missing provider: Wir konnten leider keine Verbindung zu deinem OpenID-Dienst herstellen.
@@ -1616,12 +1620,17 @@ de:
       confirm_user: Bestätige den Benutzer
       create_block: Diesen Nutzer sperren
       created from: "erstellt aus:"
+      ct accepted: Vor %{ago} akzeptiert
+      ct declined: Abgelehnt
+      ct status: "Vereinbarung für Mitwirkende:"
+      ct undecided: Unentschlossen
       deactivate_user: Benutzer deaktivieren
       delete_user: Benutzer löschen
       description: Beschreibung
       diary: Blog
       edits: Bearbeitungen
       email address: "E-Mail-Adresse:"
+      friends_changesets: Alle Änderungssätze deiner Freunde durchsuchen
       hide_user: Benutzer verstecken
       if set location: Wenn du deinen Standort angegeben hast, erscheint eine Karte am Seitenende. Du kannst deinen Standort in deinen %{settings_link} ändern.
       km away: "%{count} km entfernt"

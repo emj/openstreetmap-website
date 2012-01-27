@@ -9,7 +9,7 @@ yo:
         body: Ara
       diary_entry: 
         language: Ede
-        title: oyéorúkôàmì ìdá nkan sötõoríkì
+        title: Àkọlé
       friend: 
         friend: Ore
       message: 
@@ -63,7 +63,7 @@ yo:
     make_a_donation: 
       text: Da wo si openstreetmap.org
     view: wo
-    view_tooltip: wo maps
+    view_tooltip: Ìgbéwò máápù
     welcome_user: Kabo, %{user_link}
   message: 
     outbox: 
@@ -92,7 +92,7 @@ yo:
       public editing: 
         enabled link: http://wiki.openstreetmap.org/wiki/Disabling_anonymous_edits
     login: 
-      account not active: Pele, account yin ko wa active .<br />Jo eh te link ni nu account confirmation email lati tan account eh.
+      account not active: Àforjìn, àkópamọ́ yín kò tí ì bẹ̀rẹ̀ ìṣẹ́ báyìí.<br />Ẹ jọ̀wọ́ ẹ lo àjápọ̀ tó wà nínú e-mail ìmúdájú àkòpamọ́ lati bẹ̀rẹ̀ àkópamọ́ yín, tàbí <a href="%{reconfirm}">kí ẹ tọrọ e-mail ìmúdájú tuntun</a>.
       auth failure: Pele, e le wole pelu details yi.
       heading: Wole
       lost password link: Se eh ti san password nu?

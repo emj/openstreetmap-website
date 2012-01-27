@@ -296,14 +296,17 @@ ru:
     list: 
       description: Последние изменения
       description_bbox: "Пакеты правок в рамке, охватывающей координаты: %{bbox}"
+      description_friend: Пакеты правок ваших друзей
       description_user: Пакеты правок пользователя %{user}
       description_user_bbox: Пакеты правок пользователя %{user} в рамке, охватывающей координаты %{bbox}
       heading: Пакеты правок
       heading_bbox: Пакеты правок
+      heading_friend: Пакеты правок
       heading_user: Пакеты правок
       heading_user_bbox: Пакеты правок
       title: Пакет правок
       title_bbox: Пакет правок в рамке, охватывающей координаты %{bbox}
+      title_friend: Пакеты правок ваших друзей
       title_user: Пакеты правок пользователя %{user}
       title_user_bbox: Пакеты правок пользователя %{user} в рамке, охватывающей координаты %{bbox}
     timeout: 
@@ -1498,6 +1501,7 @@ ru:
       lost password link: Забыли пароль?
       new to osm: Впервые на OpenStreetMap?
       notice: <a href="http://www.osmfoundation.org/wiki/License/We_Are_Changing_The_License">Узнайте больше о предстоящем изменении лицензии OpenStreetMap</a> (<a href="http://wiki.openstreetmap.org/wiki/ODbL/We_Are_Changing_The_License">переводы</a>) (<a href="http://wiki.openstreetmap.org/wiki/Talk:ODbL/Upcoming">обсуждение</a>)
+      notice_terms: OpenStreetMap переходит на новую лицензию с 1 апреля 2012 года. Она такая же открытая как действующая, но юридически гораздо лучше подходит для нашей картографической базы данных. Мы хотели бы сохранить ваш вклад в OpenStreetMap, но это будет возможно только если вы согласны распространять ваши правки на условиях новой лицензии. В противном случае, нам придётся удалить их из базы данных.<br /><br />Пожалуйста, представьтесь системе и потратьте несколько секунд на ознакомление и принятие новых условий. Спасибо!
       openid: "%{logo} OpenID:"
       openid invalid: Извините, похоже, что ваш OpenID введён неправильно
       openid missing provider: К сожалению, не удалось связаться с вашим поставщиком OpenID
@@ -1619,12 +1623,17 @@ ru:
       confirm_user: подтвердить этого пользователя
       create_block: блокировать пользователя
       created from: "Создано из:"
+      ct accepted: Приняты %{ago} назад
+      ct declined: Отклонены
+      ct status: "Условия участия:"
+      ct undecided: Неопределено
       deactivate_user: деактивировать этого пользователя
       delete_user: удалить этого пользователя
       description: Описание
       diary: дневник
       edits: правки
       email address: "Адрес Email:"
+      friends_changesets: Просмотреть все наборы правок друзей
       hide_user: скрыть этого пользователя
       if set location: Если вы укажете свое местоположение, ниже  появятся карта и дополнительные инструменты. Вы можете установить ваше местоположение на вашей странице %{settings_link}.
       km away: "%{count} км от вас"
